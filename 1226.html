@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    
+       input {
+           padding:
+           
+       }
+    </style>
+    
+</head>
+<body>
+   <meta charset="UTF-8">
+    <title>Document</title>
+<!--
+    <script>
+    
+    console.log ("hello");
+    var a="hello";
+    var b=123;
+    var c=true;
+    console.log(a);
+    console.log(a+a);
+    
+    var array =["台北市","新北市"];
+    console.log(array);
+    console.log(array [1]); 
+        
+        if("條件"){
+            "動作"
+        }
+        
+        if("條件"){
+            "動作A"
+        }
+        else {
+            "動作B"
+        }
+            
+        if("a"){
+            "a"
+        }else if ("b"){
+            "b"
+        }else{"c"
+            
+        }
+        
+        var score =55;
+        if(score >=80){
+            
+            console.log("ganz prima");
+            }else{
+                console.log("solala");
+            }
+        
+        var score = 99;
+        if(score)>=90) {
+            
+            console.log("sehr gut");
+        }
+        else if (score>=60){
+            console.log ("solala");
+        }      
+        else if (score<60){
+            console.log ("schlecht");
+        }else{
+            
+        }
+        
+        var banana ="";
+        switch(banana){
+            case "yellow":
+                console.log("ok");
+                break;
+            case "green":
+                console.log("not ok");
+                break;
+            case "purple":
+                console.log("impossible");
+                break;
+            default:
+                console.log("not available yet");
+        }   
+        
+        function test(){
+            alert("BE AWARE");
+        }
+        test
+        
+    </script>
+-->
+<!--   <h1 id="aaa">ABCEDFG</h1>   -->
+   <form action="" id="myform">
+           
+            <input type="text" id="test" onchange="go()">
+            <select name="" id="test2">
+                <option value="aaa">aaa</option>
+                <option value="bbb">BBB</option>
+                <option value="ccc">ccc</option>
+                <option value="ddd">ddd</option>
+                
+            </select>
+            <input type="submit" value="送出">
+    </form>
+    <div id="output"></div>
+    <script>
+        var t = myform.test2.options[1].value;
+        console.log(t);
+        
+        var t2 = myform.test2.options[2].textContent;
+        console.log(t2);
+        
+        
+    function go(){
+        var test =
+            document.getElementById("test").value;
+        
+        console.log(test);
+//        alert("ABCDE");
+        document.getElementById("output").textContent = test;
+    }
+        
+        
+        
+    </script>    
+    
+    
+</body>
+</html>
